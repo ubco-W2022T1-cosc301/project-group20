@@ -12,9 +12,9 @@ The ufc data set was sourced from kaggle.com and has a public domain licence. Th
 
 ## Team Members
 
-- Person 1: I am a mechanical engineering student in my final year of undergrad. 
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
+- Person 1, Zach Kelly:: I am a mechanical engineering student in my final year of undergrad. 
+- Person 2, Gerren Hunter: I am a third year computer science student.
+- Person 3, Sarah Raye Quesnelle: one sentence about you!
 
 ## Images
 
