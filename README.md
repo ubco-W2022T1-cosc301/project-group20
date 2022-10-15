@@ -21,7 +21,7 @@ The ufc data set was sourced from kaggle.com and has a public domain licence. Th
 
 ## References
 
-{Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
+ufc dataset: https://www.kaggle.com/datasets/rajeevw/ufcdata
 
 
 
