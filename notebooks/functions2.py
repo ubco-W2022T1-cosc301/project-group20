@@ -2,7 +2,6 @@
 
 import pandas as pd
 
-
 def load_and_process(file):
 
     # load csv into dataframe
@@ -15,5 +14,4 @@ def load_and_process(file):
     return df_processed.dropna()
 
 
-print(load_and_process("../data/raw/raw_data.csv"))
 
