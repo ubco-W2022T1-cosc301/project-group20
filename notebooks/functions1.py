@@ -1,6 +1,5 @@
 # Zach method chaining
 import pandas as pd
-file = '../data/raw/raw_data.csv'
 
 def load_and_process(file):
 
@@ -24,7 +23,5 @@ def load_and_process(file):
     df_processed['b_height_in'] = [df_processed['b_height_in'][i]*(0.393701) for i in range(len(df_processed['r_height_in']))]
 
     return df_processed
-
-load_and_process(file)
 
 
