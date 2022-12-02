@@ -6,13 +6,11 @@ Details for Milestone are available on Canvas (left sidebar, Course Project).
 
 ## Describe your topic/interest in about 150-200 words
 
-Being UFC sports fans, we are interested in seeing if we can accurately predicate the outcome of UFC cards using simple machine-learning techniques. Since UFC is a mixed martial arts league, there are serval factors determining the probability of a successful fighter: be it their ground game, number of significant strikes, stance, reach, height, etc... We are curious as to what kind of a relationship between these independent variables develops the most accurate model predicting strong fighters in the ring; forming an analysis as to what are the most important skills that makes these athletes a serious contender in the UFC. 
-
-Our goal with this dataset is to create simple models to predicut the outcome of UFC events. 
+The Ultimate Fighting Championship (UFC) is one of the largest Mixed Martial Arts (MMA) organizations in the world. To be a true competitor in the sport of MMA demands multiple forms of martial arts training such as boxing, wrestling, and jujitsu. In competition, two competitors fight inside a caged ring typically for a scheduled 3 or 5, 5 minute rounds. The outcome of a fight is categorized by knockout (KO), technical knockout (TKO), decision, forfeit, or no contest. To predict the outcome of a fight is complicated in nature, hence the large number of decisions made amoung the fighters that lead to an outcome. Today, the UFC has a number of metrics that can be used to help predict the 'better' fighter. These metris may be ground control time, number of significant strikes, stance, reach, height, etc. In this repository, we are interested in investigating these metrics amoung the UFC fighters.
 
 ## Describe your dataset in about 150-200 words
 
-The ufc data set was sourced from kaggle.com and has a public domain licence. The creator, Rajeev, is an machine learning engineer employed at verloop.io. The data was scraped from the ufcstats website March 21st, 2021 and contains a list of statistics for every UFC fight in the history of the organization. Rajeev used beautifulsoup to scrape the data and pandas to process it. In the processed data set, every row contains information about both fighters, fight details, and the winner. The purpose of this data is to predict future fight outcomes amoung UFC fighters. 
+The ufc data set was sourced from kaggle.com and has a public domain licence. The creator, Rajeev, is an machine learning engineer employed at verloop.io. The data was scraped from the ufcstats website March 21st, 2021 and contains a list of statistics for every UFC fight in the history of the organization. Rajeev used beautifulsoup to scrape the data and pandas to process it. In the processed data set, every row contains information about both fighters, fight details, and the winner. The objective behind this repository is to extract meaningful information from the ufc dataset, and present the data in a more digestible format.
 
 ## Team Members
 
