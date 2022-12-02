@@ -20,7 +20,7 @@ The ufc data set was sourced from kaggle.com and has a public domain licence. Th
 
 ## Images
 
-<img src ="images/test.png" width="100px">
+<img src ="https://upload.wikimedia.org/wikipedia/commons/9/92/UFC_Logo.svg" width="100px">
 
 ## References
 
