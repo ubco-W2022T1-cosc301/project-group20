@@ -1,4 +1,4 @@
-# Group 20 - UFC Fighter Prediction Model
+# Group 20 - UFC Fighter Statistics
 
 ## Milestones
 
