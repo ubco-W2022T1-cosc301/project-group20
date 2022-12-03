@@ -27,3 +27,11 @@ These topics were motivated by our groups interest in mixed martial arts and the
 - show the plot of the height distribution across all divisions
 
 
+The raw dataset is stored in the form of a two dimensional dataframe and contains 6012 rows and 144 column entries. 106 columns have entries of type float, 28 columns have entries of type integer, 9 columns have entries of type object and 1 column has entries of type boolean. The competitors for each fight are classified as either Red or Blue. The information about the fighters will have a prefix "R" or "B" to clarify value assignment. For instance, column R_win_by_submission references the red fighter.
+
+<img src ="images/raw_data_head.png" width="1000px">
+
+Figure 1: first 5 rows of the raw dataset.
+
+Further investigation of the win_by_submission columns using the .unique() function reveals the columns only contains integer values in the range 0 to 14. This tells us we likely don't have to change any entry types or drop any rows in the submission columns.
+
