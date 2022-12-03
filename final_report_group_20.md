@@ -29,9 +29,19 @@ These topics were motivated by our groups interest in mixed martial arts and the
 
 The raw dataset is stored in the form of a two dimensional dataframe and contains 6012 rows and 144 column entries. 106 columns have entries of type float, 28 columns have entries of type integer, 9 columns have entries of type object and 1 column has entries of type boolean. The competitors for each fight are classified as either Red or Blue. The information about the fighters will have a prefix "R" or "B" to clarify value assignment. For instance, column R_win_by_submission references the red fighter.
 
-<img src ="images/raw_data_head.png" width="1000px">
+<p align="center">
+    <img src ="images/raw_data_head.png" width="1000px">
+    Figure 1: first 5 rows of the raw dataset.
+<p\>
 
-Figure 1: first 5 rows of the raw dataset.
+Investigation of the win_by_submission columns using the .unique() function reveals the columns only contains integer values in the range 0 to 14. This tells us we likely don't have to change any entry types or drop any rows in the submission columns. However, the .unique() function also revealed we have missing values in the height columns suggesting we will have to drop those corresponding rows if the analysis we're doing includes the height columns.
 
-Further investigation of the win_by_submission columns using the .unique() function reveals the columns only contains integer values in the range 0 to 14. This tells us we likely don't have to change any entry types or drop any rows in the submission columns.
+To assess potential bais in the dataset, the distribution of data should be considered. For instance, some weight divisions fight more frequently than others. To observe the number of fights in each weight divison a distribution was plotted.
+
+<p align="center">
+    <img src ="images/fight_dist.png" width="500px">
+    <p align="center">Figure 2: barplot of the number of fights per weight division for the ufc dataset<p\>
+<p\>
+
+
 
