@@ -43,5 +43,13 @@ To assess potential bais in the dataset, the distribution of data should be cons
     <p align="center">Figure 2: barplot of the number of fights per weight division for the ufc dataset<p\>
 <p\>
 
+The above figure shows that the most number of recorded fights occur in the lightweight and welterweight divisions (>1000) and the least number of fights occur in the catchweight and womens featherweight divisions (<100).
 
+To observe the values of fighter height in the ufc a distribution plot was created.
 
+<p align="center">
+    <img src ="images/height_dist.png" width="500px">
+    <p align="center">Figure 3: distribution plot of fighter height in centimeters for the ufc dataset<p\>
+<p\>
+
+The above figure shows that the average fighter height is approximately 183 centimeters across all weight divsions. It is important to note that the plot contains duplicate values of the same fighter (i.e. Donald Cerone has 36 fights meaning his height is accounted for 36 times). This introduces a bias to the height distributions in the more active divisions. 
