@@ -18,3 +18,12 @@ These topics were motivated by our groups interest in mixed martial arts and the
 
 ## Exploratory Data Analysis
 
+- overall stats of the dataset
+- add gained information about the submmission column (column includes values of type int, where the value is how many submission wins the fighter has to date)
+- mention there are multiple instances of a fighter within the rows. The total submission count will be the first instance of the fighter in descending order.
+- add a figure for the number of fights under each division. This points out potential bias in the dataset (i.e. more fights in lw than wfw)
+- mention the number of fights each fighter has in descending order
+- data type of height column what units of measurement. 
+- show the plot of the height distribution across all divisions
+
+
