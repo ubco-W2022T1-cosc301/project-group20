@@ -18,16 +18,10 @@ These topics were motivated by our groups interest in mixed martial arts and the
 
 ## Exploratory Data Analysis
 
-- overall stats of the dataset
-- add gained information about the submmission column (column includes values of type int, where the value is how many submission wins the fighter has to date)
-- mention there are multiple instances of a fighter within the rows. The total submission count will be the first instance of the fighter in descending order.
-- add a figure for the number of fights under each division. This points out potential bias in the dataset (i.e. more fights in lw than wfw)
-- mention the number of fights each fighter has in descending order
-- data type of height column what units of measurement. 
-- show the plot of the height distribution across all divisions
+-  The total submission count will be the first instance of the fighter in descending order.
 
 
-The raw dataset is stored in the form of a two dimensional dataframe and contains 6012 rows and 144 column entries. 106 columns have entries of type float, 28 columns have entries of type integer, 9 columns have entries of type object and 1 column has entries of type boolean. The competitors for each fight are classified as either Red or Blue. The information about the fighters will have a prefix "R" or "B" to clarify value assignment. For instance, column R_win_by_submission references the red fighter.
+The raw dataset is stored in the form of a two dimensional dataframe and contains 6012 rows and 144 column entries. The rows descend in order according to most recent date. 106 columns have entries of type float, 28 columns have entries of type integer, 9 columns have entries of type object and 1 column has entries of type boolean. The competitors for each fight are classified as either Red or Blue. The information about the fighters will have a prefix "R" or "B" to clarify value assignment. For instance, column R_win_by_submission references the red fighter.
 
 <p align="center">
     <img src ="images/raw_data_head.png" width="1000px">
@@ -53,3 +47,12 @@ To observe the values of fighter height in the ufc a distribution plot was creat
 <p\>
 
 The above figure shows that the average fighter height is approximately 183 centimeters across all weight divsions. It is important to note that the plot contains duplicate values of the same fighter (i.e. Donald Cerone has 36 fights meaning his height is accounted for 36 times). This introduces a bias to the height distributions in the more active divisions. 
+
+## Research Question 1: Which fighters have the most submission victories in the UFC?
+
+To assess which fighter in the ufc has the largest count of submission wins it is most convient to create a new dataframe and vertically stack the red and blue instances of the fighter and submission columns. To get the most number of submissions for each fighter, the first instance (most recent fight) of the fighter is kept and the remaining duplicates are removed. The resulting table is shown belown.
+
+<p align="center">
+    <img src ="images/sub_wins.png" width="250px">
+    <p align="center">Figure 4: ranking of fighters with the most submission wins in the ufc as of march 2021 <p\>
+<p\>
