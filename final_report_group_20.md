@@ -121,6 +121,8 @@ The above figure shows that the most common fighter height in the lightweight di
 The above figure shows that the most common fighter height in the womens featherweight division is 67 inches. The tallest being 71 inches and shortest being 66 inches.
 
 ## Conclusion
+    
+In Conclusion, being MMA fans, our group has taken a deep dive into the UFC dataset to answer three questions that were curious to understand. They questions being: which fighters have the most submissions in the UFC, does reach have a significant affect on a fighter's success, and what is the average height of a fighter given a certain weight class. Using the data extraction methods above, we have found that Charles Olivera, Demian Maia, Jime Miller, and Nate Diaz have the most submissions in the UFC, we also learned that reach has a significant affect on a fighter's carrer as  winning a UFC bout is directly porportional to how long a fighters reach is, and we also learnt that the most common height of a fighter is approximately 70cm tall. Studying this data has given us a better apprecation for the sport, and being fans, we are excited to continue watching more UFC bouts in the future. 
 
 
 
