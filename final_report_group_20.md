@@ -40,14 +40,16 @@ Next let's take a look at the average reach for a UFC fighter to help us address
  
 <p align="center">
     <img src ="images/average_reach.png" width="500px">
-    <p align="center">Figure 3: distribution plot of fighter height in centimeters for the ufc dataset<p\>
+    <p align="center">Figure 3: Average reach of a UFC fighter<p\>
 <p\>
+    
+Here we can see that the average reach of a fighter is about 180cm 
 
 To observe the values of fighter height in the ufc a distribution plot was created.
 
 <p align="center">
     <img src ="images/height_dist.png" width="500px">
-    <p align="center">Figure 3: distribution plot of fighter height in centimeters for the ufc dataset<p\>
+    <p align="center">Figure 4: distribution plot of fighter height in centimeters for the ufc dataset<p\>
 <p\>
 
 The above figure shows that the average fighter height is approximately 183 centimeters across all weight divsions. It is important to note that the plot contains duplicate values of the same fighter (i.e. Donald Cerone has 36 fights meaning his height is accounted for 36 times). This introduces a bias to the height distributions toward the more active divisions. 
@@ -78,12 +80,12 @@ That being said, I would like to examine the effectiveness of a fighter's with r
     
 <p align="center">
     <img src ="images/reach_r_won.png" width="500px">
-    <p align="center">Figure 6: barplot of the count of fighters in each ufc weight division <p\>
+    <p align="center">Figure 6 Plot of wins/reach of a fighter<p\>
 <p\>
     
 <p align="center">
     <img src ="images/reach_b_won.png" width="500px">
-    <p align="center">Figure 7: barplot of the count of fighters in each ufc weight division <p\>
+    <p align="center">Figure 7: Plot of wins/reach of a fighter <p\>
 <p\>
     
 We have some interesting trends going on in the above figures. First I would like to point out that there is a general trend of reach being directly porportional to the amount of wins that a fighter has, but we have some caivats. At around 150cm we have a spike in the amount of wins that a fighter has with their reach, and inversely, we see a dramatic decrease in the amount of wins that a fighter has at about a reach of 205cm. 
