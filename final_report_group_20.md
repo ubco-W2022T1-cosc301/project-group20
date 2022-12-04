@@ -50,9 +50,38 @@ The above figure shows that the average fighter height is approximately 183 cent
 
 ## Research Question 1: Which fighters have the most submission victories in the UFC?
 
-To assess which fighter in the ufc has the largest count of submission wins it is most convient to create a new dataframe and vertically stack the red and blue instances of the fighter and submission columns. To get the most number of submissions for each fighter, the first instance (most recent fight) of the fighter is kept and the remaining duplicates are removed. The resulting table is shown belown.
+To obtain only the data relevant to most submission wins the red and blue instances of the fighter and submission columns were vertically stacked. To get the most number of submissions for each fighter, the first instance (most recent instance) of the fighter is kept and the remaining duplicates are removed. The resulting table is shown belown.
 
 <p align="center">
     <img src ="images/sub_wins.png" width="250px">
     <p align="center">Figure 4: ranking of fighters with the most submission wins in the ufc as of march 2021 <p\>
 <p\>
+
+## Research Question 3: What is the average fighter height amoung different UFC weight divisions?
+
+To observe the how the data is weighted by weight class a figure below summarizes the number of fighters in each division. 
+
+<p align="center">
+    <img src ="images/div_fighters.png" width="750px">
+    <p align="center">Figure 5: barplot of the count of fighters in each weight division <p\>
+<p\>
+
+The figure above addresses the error observed in the EDA, by keeping the first instance of a fighter and removing the remaining rows containing duplicates. This ensures that the fighters who have fought multiple times are only counted once, however neglects the case of the same fighter fighting in multiple weight divisions. If the same fighter has fought in multiple weight divisions we'd want add one count per weight division fought (i.e. if Charles Olivera fought in lightweight and welterweight division we'd want to add a count of 1 to the lightwieght and welterweight division). In the figures case, only the first instance is counted.
+
+Figure 5 tells us that the most populated division is the lightweight division with more than 350 fighters and the least populated division is the womens featherweight division with less than 20 fighters.  
+
+Now, we can take a look at particular weight divisions to see how fighter height are distributed. To obtain only the data relevant to reseach question 3 the red and blue instances of the fighter and height columns were vertically stacked. The height column entries are converted from centimeters to inches. The first instance of a fighter is kept and the remaining instances are removed to avoid over-counting. The resulting tables are plotted for different weight divisions.
+
+<p align="center">
+    <img src ="images/lw_height.png" width="750px">
+    <p align="center">Figure 6: barplot of fighter height in the ufc lightweight division <p\>
+<p\>
+
+The above figure shows that the most common fighter height in the lightweight division is 70 inches. The tallest being 76 inches and shortest being 65 inches.
+
+<p align="center">
+    <img src ="images/wfw_height.png" width="750px">
+    <p align="center">Figure 7: barplot of fighter height in the ufc womens featherweight division <p\>
+<p\>
+
+The above figure shows that the most common fighter height in the womens featherweight division is 67 inches. The tallest being 71 inches and shortest being 66 inches.
