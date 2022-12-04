@@ -18,9 +18,6 @@ These topics were motivated by our groups interest in mixed martial arts and the
 
 ## Exploratory Data Analysis
 
--  The total submission count will be the first instance of the fighter in descending order.
-
-
 The raw dataset is stored in the form of a two dimensional dataframe and contains 6012 rows and 144 column entries. The rows descend in order according to most recent date. 106 columns have entries of type float, 28 columns have entries of type integer, 9 columns have entries of type object and 1 column has entries of type boolean. The competitors for each fight are classified as either Red or Blue. The information about the fighters will have a prefix "R" or "B" to clarify value assignment. For instance, column R_win_by_submission references the red fighter.
 
 <p align="center">
