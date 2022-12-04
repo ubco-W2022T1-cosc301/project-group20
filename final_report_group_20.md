@@ -37,6 +37,11 @@ To assess potential bais in the dataset, the distribution of data should be cons
 The above figure shows that the most number of recorded fights occur in the lightweight and welterweight divisions (>1000) and the least number of fights occur in the catchweight and womens featherweight divisions (<100).
 
 Next let's take a look at the average reach for a UFC fighter to help us address the second quesiton. 
+ 
+<p align="center">
+    <img src ="images/average_reach.png" width="500px">
+    <p align="center">Figure 3: distribution plot of fighter height in centimeters for the ufc dataset<p\>
+<p\>
 
 To observe the values of fighter height in the ufc a distribution plot was created.
 
