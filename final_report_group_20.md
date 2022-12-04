@@ -63,6 +63,23 @@ To observe only the top percent of fighters and answers the research question of
     <p align="center">Figure 4: ranking of fighters with the most submission wins in the ufc as of march 2021 <p\>
 <p\>
 
+## Research Question 2: Does reach have a significant affect on fighter success in the UFC?
+    
+Reach is an important metric used by UFC to determine the odds if a fighter will win a bout. In fact, it is so important, that a fighter's reach is mentioned when the announcer introduces fighters into each corner. The reason why reach is so important is because it helps fighters keeps their distance away at range. It is hard to fight a fighter that has a reach advantage because they can blow you up with combos before the other fighter has time to make distance. It is like they are forcing your hand to come in close. 
+    
+That being said, I would like to examine the effectiveness of a fighter's with real life quantative data. I want to use this data to see if there is any general trends to help me answer this quesiton. To do so, I am going to graph the number of wins that a fighter has against what their reach is, and see if there is any general trends. Here are my images below; each color seperating the red corner vs the blue corner. 
+    
+<p align="center">
+    <img src ="images/reach_r_won.png" width="750px">
+    <p align="center">Figure 5: barplot of the count of fighters in each weight division <p\>
+<p\>
+    
+<p align="center">
+    <img src ="images/reach_b_won.png" width="750px">
+    <p align="center">Figure 5: barplot of the count of fighters in each weight division <p\>
+<p\>
+
+    
 ## Research Question 3: What is the average fighter height amoung different UFC weight divisions?
 
 To observe the how the data is weighted by weight class a figure below summarizes the number of fighters in each division. 
@@ -91,4 +108,5 @@ The above figure shows that the most common fighter height in the lightweight di
 <p\>
 
 The above figure shows that the most common fighter height in the womens featherweight division is 67 inches. The tallest being 71 inches and shortest being 66 inches.
+
 
