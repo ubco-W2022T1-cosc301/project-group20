@@ -25,7 +25,7 @@ The raw dataset is stored in the form of a two dimensional dataframe and contain
     Figure 1: first 5 rows of the raw dataset.
 <p\>
 
-Investigation of the win_by_submission columns using the .unique() function reveals the columns only contains integer values in the range 0 to 14. This tells us we likely don't have to change any entry types or drop any rows in the submission columns. However, the .unique() function also revealed we have missing values in the height columns suggesting we will have to drop those corresponding rows if the analysis we're doing includes the height columns.
+Investigation of the win_by_submission columns using the .unique() function reveals that the columns only contains integer values in the range 0 to 14. This tells us we likely don't have to change any entry types or drop any rows in the submission columns. However, the .unique() function also revealed we have missing values in the height columns suggesting we will have to drop those corresponding rows if the analysis we're doing includes the height columns.
 
 To assess potential bais in the dataset, the distribution of data should be considered. For instance, some weight divisions fight more frequently than others. To observe the number of fights in each weight divison a distribution was plotted.
 
@@ -43,11 +43,20 @@ To observe the values of fighter height in the ufc a distribution plot was creat
     <p align="center">Figure 3: distribution plot of fighter height in centimeters for the ufc dataset<p\>
 <p\>
 
-The above figure shows that the average fighter height is approximately 183 centimeters across all weight divsions. It is important to note that the plot contains duplicate values of the same fighter (i.e. Donald Cerone has 36 fights meaning his height is accounted for 36 times). This introduces a bias to the height distributions in the more active divisions. 
+The above figure shows that the average fighter height is approximately 183 centimeters across all weight divsions. It is important to note that the plot contains duplicate values of the same fighter (i.e. Donald Cerone has 36 fights meaning his height is accounted for 36 times). This introduces a bias to the height distributions toward the more active divisions. 
 
 ## Research Question 1: Which fighters have the most submission victories in the UFC?
 
-To obtain only the data relevant to most submission wins the red and blue instances of the fighter and submission columns were vertically stacked. To get the most number of submissions for each fighter, the first instance (most recent instance) of the fighter is kept and the remaining duplicates are removed. The resulting table is shown belown.
+To obtain only the data relevant to the most submission wins the red and blue instances of the fighter and submission columns were vertically stacked. To get the most number of submissions for each fighter, the first instance (most recent instance) of the fighter is kept and the remaining duplicates are removed. The resulting table is used to generate the following figures.
+
+To view the distribution of submission wins over the entire dataset, the following plot is created.
+
+<p align="center">
+    <img src ="images/sub_dist.png" width="250px">
+    <p align="center">Figure 4: plot of the fighters with x number of submission wins in the ufc<p\>
+<p\>
+
+To observe only the top percent of fighters and answers the research question of which fighter has the most submission victories, the following table was created.
 
 <p align="center">
     <img src ="images/sub_wins.png" width="250px">
@@ -82,3 +91,4 @@ The above figure shows that the most common fighter height in the lightweight di
 <p\>
 
 The above figure shows that the most common fighter height in the womens featherweight division is 67 inches. The tallest being 71 inches and shortest being 66 inches.
+
