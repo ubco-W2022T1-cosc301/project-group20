@@ -69,6 +69,8 @@ That being said, I would like to examine the effectiveness of a fighter's with r
     <img src ="images/reach_b_won.png" width="750px">
     <p align="center">Figure 5: barplot of the count of fighters in each weight division <p\>
 <p\>
+    
+We have some interesting trends going on in the above figures. First I would like to point out that there is a general trend of reach being directly porportional to the amount of wins that a fighter has, but we have some caivats. At around 150cm we have a spike in the amount of wins that a fighter has with their reach, and inversely, we see a dramatic decrease in the amount of wins that a fighter has at about a reach of 205cm. 
 
     
 ## Research Question 3: What is the average fighter height amoung different UFC weight divisions?
