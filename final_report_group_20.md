@@ -52,7 +52,7 @@ To obtain only the data relevant to the most submission wins the red and blue in
 To view the distribution of submission wins over the entire dataset, the following plot is created.
 
 <p align="center">
-    <img src ="images/sub_dist.png" width="250px">
+    <img src ="images/sub_dist.png" width="500px">
     <p align="center">Figure 4: plot of the fighters with x number of submission wins in the ufc<p\>
 <p\>
 
@@ -60,7 +60,7 @@ To observe only the top percent of fighters and answers the research question of
 
 <p align="center">
     <img src ="images/sub_wins.png" width="250px">
-    <p align="center">Figure 4: ranking of fighters with the most submission wins in the ufc as of march 2021 <p\>
+    <p align="center">Figure 5: ranking of fighters with the most submission wins in the ufc as of march 2021 <p\>
 <p\>
 
 ## Research Question 2: Does reach have a significant affect on fighter success in the UFC?
@@ -70,13 +70,13 @@ Reach is an important metric used by UFC to determine the odds if a fighter will
 That being said, I would like to examine the effectiveness of a fighter's with real life quantative data. I want to use this data to see if there is any general trends to help me answer this quesiton. To do so, I am going to graph the number of wins that a fighter has against what their reach is, and see if there is any general trends. Here are my images below; each color seperating the red corner vs the blue corner. 
     
 <p align="center">
-    <img src ="images/reach_r_won.png" width="750px">
-    <p align="center">Figure 5: barplot of the count of fighters in each weight division <p\>
+    <img src ="images/reach_r_won.png" width="500px">
+    <p align="center">Figure 6: barplot of the count of fighters in each ufc weight division <p\>
 <p\>
     
 <p align="center">
-    <img src ="images/reach_b_won.png" width="750px">
-    <p align="center">Figure 5: barplot of the count of fighters in each weight division <p\>
+    <img src ="images/reach_b_won.png" width="500px">
+    <p align="center">Figure 7: barplot of the count of fighters in each ufc weight division <p\>
 <p\>
     
 We have some interesting trends going on in the above figures. First I would like to point out that there is a general trend of reach being directly porportional to the amount of wins that a fighter has, but we have some caivats. At around 150cm we have a spike in the amount of wins that a fighter has with their reach, and inversely, we see a dramatic decrease in the amount of wins that a fighter has at about a reach of 205cm. 
@@ -87,8 +87,8 @@ We have some interesting trends going on in the above figures. First I would lik
 To observe the how the data is weighted by weight class a figure below summarizes the number of fighters in each division. 
 
 <p align="center">
-    <img src ="images/div_fighters.png" width="750px">
-    <p align="center">Figure 5: barplot of the count of fighters in each weight division <p\>
+    <img src ="images/div_fighters.png" width="500px">
+    <p align="center">Figure 8: barplot of the count of fighters in each weight division <p\>
 <p\>
 
 The figure above addresses the error observed in the EDA, by keeping the first instance of a fighter and removing the remaining rows containing duplicates. This ensures that the fighters who have fought multiple times are only counted once, however neglects the case of the same fighter fighting in multiple weight divisions. If the same fighter has fought in multiple weight divisions we'd want add one count per weight division fought (i.e. if Charles Olivera fought in lightweight and welterweight division we'd want to add a count of 1 to the lightwieght and welterweight division). In the figures case, only the first instance is counted.
@@ -98,17 +98,20 @@ Figure 5 tells us that the most populated division is the lightweight division w
 Now, we can take a look at particular weight divisions to see how fighter height are distributed. To obtain only the data relevant to reseach question 3 the red and blue instances of the fighter and height columns were vertically stacked. The height column entries are converted from centimeters to inches. The first instance of a fighter is kept and the remaining instances are removed to avoid over-counting. The resulting tables are plotted for different weight divisions.
 
 <p align="center">
-    <img src ="images/lw_height.png" width="750px">
-    <p align="center">Figure 6: barplot of fighter height in the ufc lightweight division <p\>
+    <img src ="images/lw_height.png" width="500px">
+    <p align="center">Figure 9: barplot of fighter height in the ufc lightweight division <p\>
 <p\>
 
 The above figure shows that the most common fighter height in the lightweight division is 70 inches. The tallest being 76 inches and shortest being 65 inches.
 
 <p align="center">
-    <img src ="images/wfw_height.png" width="750px">
-    <p align="center">Figure 7: barplot of fighter height in the ufc womens featherweight division <p\>
+    <img src ="images/wfw_height.png" width="500px">
+    <p align="center">Figure 10: barplot of fighter height in the ufc womens featherweight division <p\>
 <p\>
 
 The above figure shows that the most common fighter height in the womens featherweight division is 67 inches. The tallest being 71 inches and shortest being 66 inches.
+
+## Conclusion
+
 
 
